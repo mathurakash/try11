@@ -9,3 +9,8 @@ def home(request):
 def about(request):
     print("about page")
     return render(request,"app1/about.html")
+
+
+def contact(request):
+    print("request page")
+    return render(request,"app1/contact.html")
